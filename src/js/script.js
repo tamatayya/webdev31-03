@@ -72,14 +72,77 @@
 // console.log(valor1 === valor2)
 // console.log("O valor é", valor2)
 
-const p = 2000
-const d = 500
+// const p = 2000
+// const d = 500
 
-let precofinal = p -d
+// let precofinal = p -d
 
-console.log(precofinal)
+// console.log(precofinal)
 
-const token=100;
-const usuarioLogado=1;
-const transacaoAutorizada= usuarioLogado === 1 && token >=10;
-console.log ("Transação agutorizada com sucesso", transacaoAutorizada)
+// const token=100;
+// const usuarioLogado=1;
+// const transacaoAutorizada= usuarioLogado === 1 && token >=10;
+// console.log ("Transação agutorizada com sucesso", transacaoAutorizada)
+
+if(true){
+    console.log("É verdadeiro")
+}
+
+let nome = "Fiap";
+if(nome=="Fiap"){
+    console.log("nome verdadeiro")
+}
+else{
+    console.log("nome errado")
+}
+
+//if encadeado/aninhado
+let idade = 59;
+if(idade<=13){
+    console.log("É uma crança")
+}else if (idade>13 && idade <=18){
+    console.log("É um adolescente")
+}else if (idade > 18 && idade < 60){
+    console.log("É um adulto")
+}else{
+    console.log("É um idoso")
+}
+
+// switch case
+
+let times = "santos";
+
+switch(times){
+        case "santos":
+            console.log("Um time idoso")
+            break;
+        case "sao paulo":
+            console.log("Time panetone")
+            break;
+        case "palmeiras":
+            console.log("SEM MUNDIAL")
+            break;
+        case "corinthians":
+            console.log("timão êo")
+            break;
+        default:
+            console.log("É tão ruiim quanto a selação brasileira")
+            break;
+}
+
+// ternario
+
+let salario=100;
+let resultado = salario == 100 ? "Salário Certo" : "Salário Errado"
+
+// ? é if e : é else 
+
+let usuario="fiap"
+let userlogado=usuario ==="fiap" ?"logado com sucesso":"usuário inválido"
+console.log(userlogado);
+
+function verificarParImpar(numero){
+    return numero % 2 === 0 ?"par":"impar"
+
+}
+console.log(verificarParImpar(10))
