@@ -48,13 +48,13 @@
 
 
 
-// const valor1=20;
-// const valor2=10;
+const valor1=20;
+const valor2=10;
 
-// console.log(valor1+ valor2)
-// console.log(valor1/ valor2)
-// console.log(valor1- valor2)
-// console.log(valor1* valor2)
+console.log(valor1+ valor2)
+console.log(valor1/ valor2)
+console.log(valor1- valor2)
+console.log(valor1* valor2)
 
 // //Operadores lógicos
 
